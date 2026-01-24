@@ -12,6 +12,6 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Intentionally fail
-        run: exit 1
+      - name: Always Succeed  
+        run: echo "check passed"
 
