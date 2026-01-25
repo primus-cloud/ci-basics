@@ -1,4 +1,5 @@
-name: Hello CI
+#hello world
+name: Demo Check
 
 on:
   push:
@@ -9,9 +10,9 @@ on:
       - main
 
 jobs:
-  hello:
+  demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Say hello
-        run: echo "Hello, CI is running!"
+      - name: Always Succeed  
+        run: echo "check passed"
 
