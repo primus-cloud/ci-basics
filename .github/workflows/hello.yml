@@ -1,5 +1,3 @@
-#hello world
-#hi
 name: Demo Check
 
 on:
@@ -16,4 +14,3 @@ jobs:
     steps:
       - name: Always Succeed  
         run: echo "check passed"
-
